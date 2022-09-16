@@ -17,6 +17,6 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Set Node.js 16.x
-        uses: AshCorr/action-has-files-changedode@main
+        uses: AshCorr/action-has-files-changed@main
         with:
           pattern: "**/changed-file"
